@@ -4,16 +4,15 @@ using namespace std ;
 // baresi motegharen ya pad_motegharen ya tarayayi darad ya na
 int main () {
 		int n ;
-	cout << "Andaze matris ra vared kon(satr=sotoon)" << "\n" ;
+	cout << "Andaze matris ra vared kon(satr=sotoon): " ;
 	cin >> n ;
 	int A[n][n] ;
 	cout << "matris rabeteh ra vared kon(0 or 1)" << "\n" ;
 	for(int i=0 ; i<n ; i++) {
-		cout << "satr" << i+1 << ": \n" ;
+		cout << "satr" << i+1 << ": " ;
 		for(int j=0 ; j<n ; j++) {
 			cin >> A[i][j] ;
 		}
-		cout << "\n" ;
 	}
 	
 	bool motegharen = true ;
